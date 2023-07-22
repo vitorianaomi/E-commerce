@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block center %}
-<h2> Lista de Marcas</h2>
+<h2> Lista de Produtos</h2>
 
 <a href="{% url 'produto_criar' %}" class="btn btn-success mb-3">Novo produto</a>
 
@@ -12,6 +12,7 @@
             <th>Descrição</th>
             <th>Preço</th>
             <th>Marca</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
